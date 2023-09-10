@@ -1,6 +1,86 @@
-<div class="markdown prose w-full break-words dark:prose-invert dark"><h1>Dev Memes Repository</h1><p>Welcome to the Dev Memes repository! This is the place where developers come together to share, create, and enjoy memes related to the world of software development. Memes provide a fun and relatable way for us to bond over the joys and challenges of coding, debugging, and everything in between.</p><h2>Table of Contents</h2><ol><li><a href="#getting-started" target="_new">Getting Started</a></li><li><a href="#contributing" target="_new">Contributing</a></li><li><a href="#guidelines" target="_new">Guidelines</a></li><li><a href="#code-of-conduct" target="_new">Code of Conduct</a></li><li><a href="#license" target="_new">License</a></li></ol><hr><h2>Getting Started</h2><p>To start contributing to the Dev Memes repository, follow these steps:</p><ol><li><p><strong>Fork the Repository</strong>: Click the "Fork" button in the top right corner of this repository to create a copy of it in your GitHub account.</p></li><li><p><strong>Clone Your Fork</strong>: Clone your forked repository to your local development environment using the following command:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/a5okol/dev-memes.git
-</code></div></div></pre></li><li><p><strong>Create a Branch</strong>: Create a new branch for your meme by using a descriptive and concise name. This branch name should reflect the content or theme of the meme you intend to create. For example:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git checkout -b add-superhero-meme
-</code></div></div></pre></li><li><p><strong>Add Your Meme</strong>: Add your meme file(s) to the repository. You can create a new folder for your meme if needed. Make sure to follow the <a href="#guidelines" target="_new">meme guidelines</a> for file format and naming conventions.</p></li><li><p><strong>Commit Your Changes</strong>: Commit your changes with a clear and descriptive commit message. For example:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git add .
-git commit -m <span class="hljs-string">"Add hilarious superhero meme"</span>
-</code></div></div></pre></li><li><p><strong>Push Your Changes</strong>: Push your branch to your forked repository on GitHub:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">git push origin add-superhero-meme
-</code></div></div></pre></li><li><p><strong>Open a Pull Request</strong>: Go to the <a href="https://github.com/devmemes/dev-memes" target="_new">original Dev Memes repository</a> and open a pull request (PR) from your forked repository. Describe your changes and provide any additional context or details.</p></li><li><p><strong>Review and Collaborate</strong>: Collaborate with other developers by reviewing and discussing memes in the pull requests. Make improvements based on feedback if necessary.</p></li><li><p><strong>Celebrate!</strong>: Your meme is now part of the Dev Memes collection. Congratulations!</p></li></ol><h2>Contributing</h2><p>We welcome contributions from developers of all backgrounds and experience levels. Whether you're a seasoned developer or just getting started, sharing your sense of humor is a great way to connect with the developer community.</p><p>If you'd like to contribute, please follow the <a href="#getting-started" target="_new">Getting Started</a> guide outlined above.</p><h2>Guidelines</h2><p>To ensure that our Dev Memes are fun, relatable, and respectful, please adhere to the following guidelines when creating and sharing memes:</p><ol><li><p><strong>Content</strong>: Keep the memes related to software development, programming, and tech culture. Avoid offensive, discriminatory, or inappropriate content.</p></li><li><p><strong>File Format</strong>: Preferred meme formats are JPEG, PNG, or GIF. Ensure that the image quality is good and that text is legible.</p></li><li><p><strong>Naming Convention</strong>: Name your meme files descriptively, with hyphens between words. For example: <code>awesome-dev-meme.jpeg</code>.</p></li><li><p><strong>Attribution</strong>: If the meme is not an original creation, provide proper attribution to the original creator if possible.</p></li><li><p><strong>Respect Copyright</strong>: Avoid using copyrighted material unless you have explicit permission or the content falls under fair use.</p></li><li><p><strong>Keep It Light</strong>: Remember that the purpose of Dev Memes is to have fun and share a laugh. Avoid memes that could be offensive or divisive.</p></li></ol><h2>Code of Conduct</h2><p>Please review and follow our <a href="CODE_OF_CONDUCT.md" target="_new">Code of Conduct</a>. We are committed to fostering a welcoming and inclusive environment for all contributors.</p><h2>License</h2><p>This project is licensed under the <a href="LICENSE" target="_new">MIT License</a>. By contributing to this project, you agree to abide by the terms of this license.</p><hr><p>Thank you for being part of the Dev Memes community! Let's create and enjoy some hilarious memes together. If you have any questions or need assistance, don't hesitate to reach out to our maintainers or other contributors. Happy meme-making! 😄👩&zwj;💻👨&zwj;💻🎉</p></div>
+# Dev Memes Repository
+
+Welcome to the Dev Memes repository! This is the place where developers come together to share, create, and enjoy memes related to the world of software development. Memes provide a fun and relatable way for us to bond over the joys and challenges of coding, debugging, and everything in between.
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Contributing](#contributing)
+3. [Guidelines](#guidelines)
+4. [Code of Conduct](#code-of-conduct)
+5. [License](#license)
+
+---
+
+## Getting Started
+
+To start contributing to the Dev Memes repository, follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button in the top right corner of this repository to create a copy of it in your GitHub account.
+
+2. **Clone Your Fork**: Clone your forked repository to your local development environment using the following command:
+
+    ```bash
+    git clone https://github.com/a5okol/dev-memes.git
+    ```
+
+3. **Create a Branch**: Create a new branch for your meme by using a descriptive and concise name. This branch name should reflect the content or theme of the meme you intend to create. For example:
+
+    ```bash
+    git checkout -b add-superhero-meme
+    ```
+
+4. **Add Your Meme**: Add your meme file(s) to the repository. You can create a new folder for your meme if needed. Make sure to follow the [meme guidelines](#guidelines) for file format and naming conventions.
+
+5. **Commit Your Changes**: Commit your changes with a clear and descriptive commit message. For example:
+
+    ```bash
+    git add .
+    git commit -m "Add hilarious superhero meme"
+    ```
+
+6. **Push Your Changes**: Push your branch to your forked repository on GitHub:
+
+    ```bash
+    git push origin add-superhero-meme
+    ```
+
+7. **Open a Pull Request**: Go to the [original Dev Memes repository](https://github.com/a5okol/dev-memes) and open a pull request (PR) from your forked repository. Describe your changes and provide any additional context or details.
+
+8. **Review and Collaborate**: Collaborate with other developers by reviewing and discussing memes in the pull requests. Make improvements based on feedback if necessary.
+
+9. **Celebrate!**: Your meme is now part of the Dev Memes collection. Congratulations!
+
+## Contributing
+
+We welcome contributions from developers of all backgrounds and experience levels. Whether you're a seasoned developer or just getting started, sharing your sense of humor is a great way to connect with the developer community.
+
+If you'd like to contribute, please follow the [Getting Started](#getting-started) guide outlined above.
+
+## Guidelines
+
+To ensure that our Dev Memes are fun, relatable, and respectful, please adhere to the following guidelines when creating and sharing memes:
+
+1. **Content**: Keep the memes related to software development, programming, and tech culture. Avoid offensive, discriminatory, or inappropriate content.
+
+2. **File Format**: Preferred meme formats are JPEG, PNG, or GIF. Ensure that the image quality is good and that text is legible.
+
+3. **Naming Convention**: Name your meme files descriptively, with hyphens between words. For example: `awesome-dev-meme.jpg`.
+
+4. **Attribution**: If the meme is not an original creation, provide proper attribution to the original creator if possible.
+
+5. **Respect Copyright**: Avoid using copyrighted material unless you have explicit permission or the content falls under fair use.
+
+6. **Keep It Light**: Remember that the purpose of Dev Memes is to have fun and share a laugh. Avoid memes that could be offensive or divisive.
+
+## Code of Conduct
+
+Please review and follow our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to fostering a welcoming and inclusive environment for all contributors.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). By contributing to this project, you agree to abide by the terms of this license.
+
+---
+
+Thank you for being part of the Dev Memes community! Let's create and enjoy some hilarious memes together. If you have any questions or need assistance, don't hesitate to reach out to our maintainers or other contributors. Happy meme-making! 😄👩‍💻👨‍💻🎉
